@@ -87,7 +87,7 @@ function slider() {
     if (start >= slides.length) {
         start = 0;
     }
-    img.innerHTML = `<img src="${slides[start]}" alt="">
+    img.innerHTML = `<img id ="slider" src="${slides[start]}" alt="">
                      <div class="caption">${captions[start]}</div>`;
 }
-setInterval(slider, 5000)
+setInterval(slider, 8000)
